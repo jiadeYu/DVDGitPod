@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.source = { :git => 'https://github.com/jiadeYu/DVDGitPod.git', :tag => s.version.to_s }
     s.requires_arc = true
     s.ios.deployment_target = '7.0'
-    s.source_files = 'DVDGitPod/*.{h,m}'
+    s.source_files = 'DVDGitPod/**/*.{h,m}'
 end
 

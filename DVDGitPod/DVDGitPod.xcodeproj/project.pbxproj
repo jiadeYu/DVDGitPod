@@ -7,71 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCAAE7B12019B41C0040EB8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7B02019B41C0040EB8B /* AppDelegate.m */; };
-		FCAAE7B42019B41C0040EB8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7B32019B41C0040EB8B /* ViewController.m */; };
-		FCAAE7B72019B41C0040EB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAE7B52019B41C0040EB8B /* Main.storyboard */; };
-		FCAAE7B92019B41C0040EB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAAE7B82019B41C0040EB8B /* Assets.xcassets */; };
-		FCAAE7BC2019B41C0040EB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAE7BA2019B41C0040EB8B /* LaunchScreen.storyboard */; };
-		FCAAE7BF2019B41C0040EB8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7BE2019B41C0040EB8B /* main.m */; };
-		FCAAE7C92019B41D0040EB8B /* DVDGitPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7C82019B41D0040EB8B /* DVDGitPodTests.m */; };
-		FCAAE7D42019B41D0040EB8B /* DVDGitPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7D32019B41D0040EB8B /* DVDGitPodUITests.m */; };
-		FCAAE7E32019B42C0040EB8B /* DVDGitPod.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7E22019B42C0040EB8B /* DVDGitPod.m */; };
+		FCAAE7F22019B6FE0040EB8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7F12019B6FE0040EB8B /* AppDelegate.m */; };
+		FCAAE7F52019B6FE0040EB8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7F42019B6FE0040EB8B /* ViewController.m */; };
+		FCAAE7F82019B6FE0040EB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAE7F62019B6FE0040EB8B /* Main.storyboard */; };
+		FCAAE7FA2019B6FE0040EB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAAE7F92019B6FE0040EB8B /* Assets.xcassets */; };
+		FCAAE7FD2019B6FE0040EB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAE7FB2019B6FE0040EB8B /* LaunchScreen.storyboard */; };
+		FCAAE8002019B6FE0040EB8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAE7FF2019B6FE0040EB8B /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FCAAE7C52019B41D0040EB8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCAAE7A42019B41C0040EB8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCAAE7AB2019B41C0040EB8B;
-			remoteInfo = DVDGitPod;
-		};
-		FCAAE7D02019B41D0040EB8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCAAE7A42019B41C0040EB8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCAAE7AB2019B41C0040EB8B;
-			remoteInfo = DVDGitPod;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FCAAE7AC2019B41C0040EB8B /* DVDGitPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVDGitPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCAAE7AF2019B41C0040EB8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FCAAE7B02019B41C0040EB8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCAAE7B22019B41C0040EB8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCAAE7B32019B41C0040EB8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FCAAE7B62019B41C0040EB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCAAE7B82019B41C0040EB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCAAE7BB2019B41C0040EB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FCAAE7BD2019B41C0040EB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCAAE7BE2019B41C0040EB8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCAAE7C42019B41D0040EB8B /* DVDGitPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVDGitPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCAAE7C82019B41D0040EB8B /* DVDGitPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVDGitPodTests.m; sourceTree = "<group>"; };
-		FCAAE7CA2019B41D0040EB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCAAE7CF2019B41D0040EB8B /* DVDGitPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVDGitPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCAAE7D32019B41D0040EB8B /* DVDGitPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVDGitPodUITests.m; sourceTree = "<group>"; };
-		FCAAE7D52019B41D0040EB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCAAE7E12019B42C0040EB8B /* DVDGitPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVDGitPod.h; sourceTree = "<group>"; };
-		FCAAE7E22019B42C0040EB8B /* DVDGitPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVDGitPod.m; sourceTree = "<group>"; };
+		FCAAE7ED2019B6FE0040EB8B /* DVDGitPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVDGitPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAAE7F02019B6FE0040EB8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCAAE7F12019B6FE0040EB8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCAAE7F32019B6FE0040EB8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCAAE7F42019B6FE0040EB8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCAAE7F72019B6FE0040EB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAAE7F92019B6FE0040EB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAAE7FC2019B6FE0040EB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAAE7FE2019B6FE0040EB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAAE7FF2019B6FE0040EB8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCAAE7A92019B41C0040EB8B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAAE7C12019B41D0040EB8B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAAE7CC2019B41D0040EB8B /* Frameworks */ = {
+		FCAAE7EA2019B6FE0040EB8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,72 +39,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCAAE7A32019B41C0040EB8B = {
+		FCAAE7E42019B6FE0040EB8B = {
 			isa = PBXGroup;
 			children = (
-				FCAAE7AE2019B41C0040EB8B /* DVDGitPod */,
-				FCAAE7C72019B41D0040EB8B /* DVDGitPodTests */,
-				FCAAE7D22019B41D0040EB8B /* DVDGitPodUITests */,
-				FCAAE7AD2019B41C0040EB8B /* Products */,
+				FCAAE7EF2019B6FE0040EB8B /* DVDGitPod */,
+				FCAAE7EE2019B6FE0040EB8B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCAAE7AD2019B41C0040EB8B /* Products */ = {
+		FCAAE7EE2019B6FE0040EB8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCAAE7AC2019B41C0040EB8B /* DVDGitPod.app */,
-				FCAAE7C42019B41D0040EB8B /* DVDGitPodTests.xctest */,
-				FCAAE7CF2019B41D0040EB8B /* DVDGitPodUITests.xctest */,
+				FCAAE7ED2019B6FE0040EB8B /* DVDGitPod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCAAE7AE2019B41C0040EB8B /* DVDGitPod */ = {
+		FCAAE7EF2019B6FE0040EB8B /* DVDGitPod */ = {
 			isa = PBXGroup;
 			children = (
-				FCAAE7AF2019B41C0040EB8B /* AppDelegate.h */,
-				FCAAE7B02019B41C0040EB8B /* AppDelegate.m */,
-				FCAAE7B22019B41C0040EB8B /* ViewController.h */,
-				FCAAE7B32019B41C0040EB8B /* ViewController.m */,
-				FCAAE7E12019B42C0040EB8B /* DVDGitPod.h */,
-				FCAAE7E22019B42C0040EB8B /* DVDGitPod.m */,
-				FCAAE7B52019B41C0040EB8B /* Main.storyboard */,
-				FCAAE7B82019B41C0040EB8B /* Assets.xcassets */,
-				FCAAE7BA2019B41C0040EB8B /* LaunchScreen.storyboard */,
-				FCAAE7BD2019B41C0040EB8B /* Info.plist */,
-				FCAAE7BE2019B41C0040EB8B /* main.m */,
+				FCAAE7F02019B6FE0040EB8B /* AppDelegate.h */,
+				FCAAE7F12019B6FE0040EB8B /* AppDelegate.m */,
+				FCAAE7F32019B6FE0040EB8B /* ViewController.h */,
+				FCAAE7F42019B6FE0040EB8B /* ViewController.m */,
+				FCAAE7F62019B6FE0040EB8B /* Main.storyboard */,
+				FCAAE7F92019B6FE0040EB8B /* Assets.xcassets */,
+				FCAAE7FB2019B6FE0040EB8B /* LaunchScreen.storyboard */,
+				FCAAE7FE2019B6FE0040EB8B /* Info.plist */,
+				FCAAE7FF2019B6FE0040EB8B /* main.m */,
 			);
 			path = DVDGitPod;
-			sourceTree = "<group>";
-		};
-		FCAAE7C72019B41D0040EB8B /* DVDGitPodTests */ = {
-			isa = PBXGroup;
-			children = (
-				FCAAE7C82019B41D0040EB8B /* DVDGitPodTests.m */,
-				FCAAE7CA2019B41D0040EB8B /* Info.plist */,
-			);
-			path = DVDGitPodTests;
-			sourceTree = "<group>";
-		};
-		FCAAE7D22019B41D0040EB8B /* DVDGitPodUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCAAE7D32019B41D0040EB8B /* DVDGitPodUITests.m */,
-				FCAAE7D52019B41D0040EB8B /* Info.plist */,
-			);
-			path = DVDGitPodUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCAAE7AB2019B41C0040EB8B /* DVDGitPod */ = {
+		FCAAE7EC2019B6FE0040EB8B /* DVDGitPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCAAE7D82019B41D0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPod" */;
+			buildConfigurationList = FCAAE8032019B6FE0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPod" */;
 			buildPhases = (
-				FCAAE7A82019B41C0040EB8B /* Sources */,
-				FCAAE7A92019B41C0040EB8B /* Frameworks */,
-				FCAAE7AA2019B41C0040EB8B /* Resources */,
+				FCAAE7E92019B6FE0040EB8B /* Sources */,
+				FCAAE7EA2019B6FE0040EB8B /* Frameworks */,
+				FCAAE7EB2019B6FE0040EB8B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,71 +88,25 @@
 			);
 			name = DVDGitPod;
 			productName = DVDGitPod;
-			productReference = FCAAE7AC2019B41C0040EB8B /* DVDGitPod.app */;
+			productReference = FCAAE7ED2019B6FE0040EB8B /* DVDGitPod.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FCAAE7C32019B41D0040EB8B /* DVDGitPodTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCAAE7DB2019B41D0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPodTests" */;
-			buildPhases = (
-				FCAAE7C02019B41D0040EB8B /* Sources */,
-				FCAAE7C12019B41D0040EB8B /* Frameworks */,
-				FCAAE7C22019B41D0040EB8B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCAAE7C62019B41D0040EB8B /* PBXTargetDependency */,
-			);
-			name = DVDGitPodTests;
-			productName = DVDGitPodTests;
-			productReference = FCAAE7C42019B41D0040EB8B /* DVDGitPodTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FCAAE7CE2019B41D0040EB8B /* DVDGitPodUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCAAE7DE2019B41D0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPodUITests" */;
-			buildPhases = (
-				FCAAE7CB2019B41D0040EB8B /* Sources */,
-				FCAAE7CC2019B41D0040EB8B /* Frameworks */,
-				FCAAE7CD2019B41D0040EB8B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCAAE7D12019B41D0040EB8B /* PBXTargetDependency */,
-			);
-			name = DVDGitPodUITests;
-			productName = DVDGitPodUITests;
-			productReference = FCAAE7CF2019B41D0040EB8B /* DVDGitPodUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCAAE7A42019B41C0040EB8B /* Project object */ = {
+		FCAAE7E52019B6FE0040EB8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = BraveTime;
 				TargetAttributes = {
-					FCAAE7AB2019B41C0040EB8B = {
+					FCAAE7EC2019B6FE0040EB8B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					FCAAE7C32019B41D0040EB8B = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FCAAE7AB2019B41C0040EB8B;
-					};
-					FCAAE7CE2019B41D0040EB8B = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FCAAE7AB2019B41C0040EB8B;
 					};
 				};
 			};
-			buildConfigurationList = FCAAE7A72019B41C0040EB8B /* Build configuration list for PBXProject "DVDGitPod" */;
+			buildConfigurationList = FCAAE7E82019B6FE0040EB8B /* Build configuration list for PBXProject "DVDGitPod" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,101 +114,55 @@
 				en,
 				Base,
 			);
-			mainGroup = FCAAE7A32019B41C0040EB8B;
-			productRefGroup = FCAAE7AD2019B41C0040EB8B /* Products */;
+			mainGroup = FCAAE7E42019B6FE0040EB8B;
+			productRefGroup = FCAAE7EE2019B6FE0040EB8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCAAE7AB2019B41C0040EB8B /* DVDGitPod */,
-				FCAAE7C32019B41D0040EB8B /* DVDGitPodTests */,
-				FCAAE7CE2019B41D0040EB8B /* DVDGitPodUITests */,
+				FCAAE7EC2019B6FE0040EB8B /* DVDGitPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FCAAE7AA2019B41C0040EB8B /* Resources */ = {
+		FCAAE7EB2019B6FE0040EB8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAAE7BC2019B41C0040EB8B /* LaunchScreen.storyboard in Resources */,
-				FCAAE7B92019B41C0040EB8B /* Assets.xcassets in Resources */,
-				FCAAE7B72019B41C0040EB8B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAAE7C22019B41D0040EB8B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAAE7CD2019B41D0040EB8B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FCAAE7FD2019B6FE0040EB8B /* LaunchScreen.storyboard in Resources */,
+				FCAAE7FA2019B6FE0040EB8B /* Assets.xcassets in Resources */,
+				FCAAE7F82019B6FE0040EB8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCAAE7A82019B41C0040EB8B /* Sources */ = {
+		FCAAE7E92019B6FE0040EB8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAAE7B42019B41C0040EB8B /* ViewController.m in Sources */,
-				FCAAE7BF2019B41C0040EB8B /* main.m in Sources */,
-				FCAAE7B12019B41C0040EB8B /* AppDelegate.m in Sources */,
-				FCAAE7E32019B42C0040EB8B /* DVDGitPod.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAAE7C02019B41D0040EB8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCAAE7C92019B41D0040EB8B /* DVDGitPodTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAAE7CB2019B41D0040EB8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCAAE7D42019B41D0040EB8B /* DVDGitPodUITests.m in Sources */,
+				FCAAE7F52019B6FE0040EB8B /* ViewController.m in Sources */,
+				FCAAE8002019B6FE0040EB8B /* main.m in Sources */,
+				FCAAE7F22019B6FE0040EB8B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FCAAE7C62019B41D0040EB8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCAAE7AB2019B41C0040EB8B /* DVDGitPod */;
-			targetProxy = FCAAE7C52019B41D0040EB8B /* PBXContainerItemProxy */;
-		};
-		FCAAE7D12019B41D0040EB8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCAAE7AB2019B41C0040EB8B /* DVDGitPod */;
-			targetProxy = FCAAE7D02019B41D0040EB8B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		FCAAE7B52019B41C0040EB8B /* Main.storyboard */ = {
+		FCAAE7F62019B6FE0040EB8B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCAAE7B62019B41C0040EB8B /* Base */,
+				FCAAE7F72019B6FE0040EB8B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FCAAE7BA2019B41C0040EB8B /* LaunchScreen.storyboard */ = {
+		FCAAE7FB2019B6FE0040EB8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCAAE7BB2019B41C0040EB8B /* Base */,
+				FCAAE7FC2019B6FE0040EB8B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -328,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FCAAE7D62019B41D0040EB8B /* Debug */ = {
+		FCAAE8012019B6FE0040EB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		FCAAE7D72019B41D0040EB8B /* Release */ = {
+		FCAAE8022019B6FE0040EB8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +274,7 @@
 			};
 			name = Release;
 		};
-		FCAAE7D92019B41D0040EB8B /* Debug */ = {
+		FCAAE8042019B6FE0040EB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		FCAAE7DA2019B41D0040EB8B /* Release */ = {
+		FCAAE8052019B6FE0040EB8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -457,107 +299,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shareDemo.DVDGitPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FCAAE7DC2019B41D0040EB8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SXXSWCEF9M;
-				INFOPLIST_FILE = DVDGitPodTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shareDemo.DVDGitPodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVDGitPod.app/DVDGitPod";
-			};
-			name = Debug;
-		};
-		FCAAE7DD2019B41D0040EB8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SXXSWCEF9M;
-				INFOPLIST_FILE = DVDGitPodTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shareDemo.DVDGitPodTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVDGitPod.app/DVDGitPod";
-			};
-			name = Release;
-		};
-		FCAAE7DF2019B41D0040EB8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SXXSWCEF9M;
-				INFOPLIST_FILE = DVDGitPodUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shareDemo.DVDGitPodUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DVDGitPod;
-			};
-			name = Debug;
-		};
-		FCAAE7E02019B41D0040EB8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SXXSWCEF9M;
-				INFOPLIST_FILE = DVDGitPodUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shareDemo.DVDGitPodUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DVDGitPod;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCAAE7A72019B41C0040EB8B /* Build configuration list for PBXProject "DVDGitPod" */ = {
+		FCAAE7E82019B6FE0040EB8B /* Build configuration list for PBXProject "DVDGitPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCAAE7D62019B41D0040EB8B /* Debug */,
-				FCAAE7D72019B41D0040EB8B /* Release */,
+				FCAAE8012019B6FE0040EB8B /* Debug */,
+				FCAAE8022019B6FE0040EB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCAAE7D82019B41D0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPod" */ = {
+		FCAAE8032019B6FE0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCAAE7D92019B41D0040EB8B /* Debug */,
-				FCAAE7DA2019B41D0040EB8B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCAAE7DB2019B41D0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPodTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCAAE7DC2019B41D0040EB8B /* Debug */,
-				FCAAE7DD2019B41D0040EB8B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCAAE7DE2019B41D0040EB8B /* Build configuration list for PBXNativeTarget "DVDGitPodUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCAAE7DF2019B41D0040EB8B /* Debug */,
-				FCAAE7E02019B41D0040EB8B /* Release */,
+				FCAAE8042019B6FE0040EB8B /* Debug */,
+				FCAAE8052019B6FE0040EB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCAAE7A42019B41C0040EB8B /* Project object */;
+	rootObject = FCAAE7E52019B6FE0040EB8B /* Project object */;
 }
